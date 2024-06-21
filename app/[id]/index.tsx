@@ -14,6 +14,10 @@ const DynamicRoute = () => {
         title="Push random id"
       />
       <Button
+        onPress={() => router.replace(Math.random().toString())}
+        title="Replace random id"
+      />
+      <Button
         onPress={() => router.back()}
         title="Bo back"
       />

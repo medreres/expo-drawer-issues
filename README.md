@@ -13,7 +13,8 @@ Clicking go back button should navigate back to previous route, route with previ
 Clicking go back results in navigate to home page omitting all the previous pages
 
 # Notes
-Using `backBehavior="history"` does not help in this case
+- Using `backBehavior="history"` does not help in this case
+- Router's function `replace` does not work anymore when using drawer navigation, same goes for `<Redirect />` component
 
 # Demo
 [https://www.loom.com/share/46227e85b43b484a9c9f286055080902](https://www.loom.com/share/46227e85b43b484a9c9f286055080902)
