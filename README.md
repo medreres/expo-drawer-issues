@@ -11,3 +11,6 @@ Clicking go back button should navigate back to previous route, route with previ
 
 # Actual result
 Clicking go back results in navigate to home page omitting all the previous pages
+
+# Notes
+Using `backBehavior="history"` does not help in this case
